@@ -12,6 +12,7 @@ import { JobComponent } from './job/job.component';
 import { AccountComponent } from './account/account.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { CheckoutformComponent } from './checkoutform/checkoutform.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SignupComponent } from './signup/signup.component';
     JobComponent,
     AccountComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    CheckoutformComponent
   ],
   imports: [
     BrowserModule,

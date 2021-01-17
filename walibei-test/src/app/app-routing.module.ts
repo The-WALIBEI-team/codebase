@@ -7,16 +7,18 @@ import { JobComponent } from './job/job.component';
 import { AccountComponent } from './account/account.component'; 
 import { LoginComponent } from './login/login.component'; 
 import { SignupComponent } from './signup/signup.component';
+import { CheckoutformComponent } from './checkoutform/checkoutform.component';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
   {path: "home", component: HomeComponent},
-  {path: "home", component: ProductComponent},
-  {path: "home", component: ServiceComponent},
-  {path: "home", component: JobComponent},
+  {path: "product", component: ProductComponent},
+  {path: "service", component: ServiceComponent},
+  {path: "job", component: JobComponent},
   {path: "account", component: AccountComponent},
   {path: "login", component: LoginComponent},
-  {path: "signup", component: SignupComponent}
+  {path: "signup", component: SignupComponent}, 
+  {path: "checkoutform", component: CheckoutformComponent}
 
 ];
 
