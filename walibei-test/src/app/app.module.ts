@@ -32,6 +32,8 @@ import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
 import { GeneralConditionsComponent } from './general-conditions/general-conditions.component';
 import { CustomerCareComponent } from './customer-care/customer-care.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,9 @@ import { PricingComponent } from './pricing/pricing.component';
     TermsOfUseComponent,
     GeneralConditionsComponent,
     CustomerCareComponent,
-    PricingComponent
+    PricingComponent,
+    SubscriptionComponent,
+    WelcomePageComponent
   ],
   imports: [
     BrowserModule,
