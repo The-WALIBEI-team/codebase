@@ -13,6 +13,25 @@ import { AccountComponent } from './account/account.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { CheckoutformComponent } from './checkoutform/checkoutform.component';
+import { ProductOnlineComponent } from './product-online/product-online.component';
+import { ProductClickandcollectComponent } from './product-clickandcollect/product-clickandcollect.component';
+import { ProductSecondHandComponent } from './product-second-hand/product-second-hand.component';
+import { ProductNearbyShopComponent } from './product-nearby-shop/product-nearby-shop.component';
+import { ServiceOnlineComponent } from './service-online/service-online.component';
+import { ServiceInpersonComponent } from './service-inperson/service-inperson.component';
+import { ServiceWorkrelatedComponent } from './service-workrelated/service-workrelated.component';
+import { ServiceFreelancingComponent } from './service-freelancing/service-freelancing.component';
+import { JobProfessionalsComponent } from './job-professionals/job-professionals.component';
+import { JobTechniciansComponent } from './job-technicians/job-technicians.component';
+import { JobRepairersComponent } from './job-repairers/job-repairers.component';
+import { JobPostJobComponent } from './job-post-job/job-post-job.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { BlogComponent } from './blog/blog.component';
+import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
+import { GeneralConditionsComponent } from './general-conditions/general-conditions.component';
+import { CustomerCareComponent } from './customer-care/customer-care.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +45,26 @@ import { CheckoutformComponent } from './checkoutform/checkoutform.component';
     AccountComponent,
     LoginComponent,
     SignupComponent,
-    CheckoutformComponent
+    CheckoutformComponent,
+    ProductOnlineComponent,
+    ProductClickandcollectComponent,
+    ProductSecondHandComponent,
+    ProductNearbyShopComponent,
+    ServiceOnlineComponent,
+    ServiceInpersonComponent,
+    ServiceWorkrelatedComponent,
+    ServiceFreelancingComponent,
+    JobProfessionalsComponent,
+    JobTechniciansComponent,
+    JobRepairersComponent,
+    JobPostJobComponent,
+    ContactUsComponent,
+    AboutUsComponent,
+    BlogComponent,
+    TermsOfUseComponent,
+    GeneralConditionsComponent,
+    CustomerCareComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,

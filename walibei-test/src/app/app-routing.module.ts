@@ -8,6 +8,8 @@ import { AccountComponent } from './account/account.component';
 import { LoginComponent } from './login/login.component'; 
 import { SignupComponent } from './signup/signup.component';
 import { CheckoutformComponent } from './checkoutform/checkoutform.component';
+import { BlogComponent } from './blog/blog.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
@@ -18,7 +20,10 @@ const routes: Routes = [
   {path: "account", component: AccountComponent},
   {path: "login", component: LoginComponent},
   {path: "signup", component: SignupComponent}, 
-  {path: "checkoutform", component: CheckoutformComponent}
+  {path: "checkoutform", component: CheckoutformComponent}, 
+  {path: "blog", component: BlogComponent},
+  {path: "pricing", component: PricingComponent}
+
 
 ];
 
