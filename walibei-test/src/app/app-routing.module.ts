@@ -11,11 +11,9 @@ import { CheckoutformComponent } from './checkoutform/checkoutform.component';
 import { BlogComponent } from './blog/blog.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
-import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 const routes: Routes = [
-  {path:  "", pathMatch:  "full",redirectTo:  "welcome-page"},
-  {path: "welcome-page", component: WelcomePageComponent},
+  {path:  "", pathMatch:  "full",redirectTo:  "home"},
   {path: "home", component: HomeComponent},
   {path: "product", component: ProductComponent},
   {path: "service", component: ServiceComponent},
@@ -26,8 +24,7 @@ const routes: Routes = [
   {path: "checkoutform", component: CheckoutformComponent}, 
   {path: "blog", component: BlogComponent},
   {path: "pricing", component: PricingComponent},
-  {path: 'subscription', component: SubscriptionComponent},
-  {path: 'welcome-page', component: WelcomePageComponent}
+  {path: 'subscription', component: SubscriptionComponent}
 
 
 ];
