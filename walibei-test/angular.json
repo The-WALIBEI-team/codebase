@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css", 
+              "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css"
             ],
@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "walibei-test"
+  "defaultProject": "walibei-test",
+  "cli": {
+    "analytics": "b912a6ce-6d96-4cee-a7cb-037d67501967"
+  }
 }
