@@ -34,6 +34,9 @@ import { CustomerCareComponent } from './customer-care/customer-care.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { LivraisonComponent } from './livraison/livraison.component';
+import { SignupSupplyComponent } from './signup-supply/signup-supply.component';
+import { SignupRequestComponent } from './signup-request/signup-request.component';
+import { SignupDeliveryComponent } from './signup-delivery/signup-delivery.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +71,10 @@ import { LivraisonComponent } from './livraison/livraison.component';
     CustomerCareComponent,
     PricingComponent,
     SubscriptionComponent,
-    LivraisonComponent
+    LivraisonComponent,
+    SignupSupplyComponent,
+    SignupRequestComponent,
+    SignupDeliveryComponent
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,9 @@ import { BlogComponent } from './blog/blog.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { LivraisonComponent } from './livraison/livraison.component';
+import { SignupSupplyComponent } from './signup-supply/signup-supply.component';
+import { SignupRequestComponent } from './signup-request/signup-request.component';
+import { SignupDeliveryComponent } from './signup-delivery/signup-delivery.component';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
@@ -27,7 +30,9 @@ const routes: Routes = [
   {path: "pricing", component: PricingComponent},
   {path: 'subscription', component: SubscriptionComponent},
   {path: "livraison", component: LivraisonComponent},
-
+  {path: "signup-supply", component: SignupSupplyComponent},
+  {path: "signup-request", component: SignupRequestComponent},
+  {path: "signup-delivery", component: SignupDeliveryComponent},
 
 ];
 
