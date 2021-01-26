@@ -11,6 +11,7 @@ import { CheckoutformComponent } from './checkoutform/checkoutform.component';
 import { BlogComponent } from './blog/blog.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
+import { LivraisonComponent } from './livraison/livraison.component';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
@@ -24,7 +25,8 @@ const routes: Routes = [
   {path: "checkoutform", component: CheckoutformComponent}, 
   {path: "blog", component: BlogComponent},
   {path: "pricing", component: PricingComponent},
-  {path: 'subscription', component: SubscriptionComponent}
+  {path: 'subscription', component: SubscriptionComponent},
+  {path: "livraison", component: LivraisonComponent},
 
 
 ];

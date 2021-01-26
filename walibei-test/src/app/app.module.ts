@@ -33,6 +33,7 @@ import { GeneralConditionsComponent } from './general-conditions/general-conditi
 import { CustomerCareComponent } from './customer-care/customer-care.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
+import { LivraisonComponent } from './livraison/livraison.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { SubscriptionComponent } from './subscription/subscription.component';
     GeneralConditionsComponent,
     CustomerCareComponent,
     PricingComponent,
-    SubscriptionComponent
+    SubscriptionComponent,
+    LivraisonComponent
   ],
   imports: [
     BrowserModule,
