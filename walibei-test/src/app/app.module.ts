@@ -36,6 +36,9 @@ import { LivraisonComponent } from './livraison/livraison.component';
 import { SignupSupplyComponent } from './signup-supply/signup-supply.component';
 import { SignupRequestComponent } from './signup-request/signup-request.component';
 import { SignupDeliveryComponent } from './signup-delivery/signup-delivery.component';
+import { GuineaMapComponent } from './guinea-map/guinea-map.component';
+import { BurkinaMapComponent } from './burkina-map/burkina-map.component';
+import { DrcongoMapComponent } from './drcongo-map/drcongo-map.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +75,10 @@ import { SignupDeliveryComponent } from './signup-delivery/signup-delivery.compo
     LivraisonComponent,
     SignupSupplyComponent,
     SignupRequestComponent,
-    SignupDeliveryComponent
+    SignupDeliveryComponent,
+    GuineaMapComponent,
+    BurkinaMapComponent,
+    DrcongoMapComponent
   ],
   imports: [
     BrowserModule,

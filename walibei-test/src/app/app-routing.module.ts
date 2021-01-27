@@ -14,6 +14,9 @@ import { LivraisonComponent } from './livraison/livraison.component';
 import { SignupSupplyComponent } from './signup-supply/signup-supply.component';
 import { SignupRequestComponent } from './signup-request/signup-request.component';
 import { SignupDeliveryComponent } from './signup-delivery/signup-delivery.component';
+import { GuineaMapComponent } from './guinea-map/guinea-map.component';
+import { BurkinaMapComponent } from './burkina-map/burkina-map.component';
+import { DrcongoMapComponent } from './drcongo-map/drcongo-map.component';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
@@ -31,6 +34,9 @@ const routes: Routes = [
   {path: "signup-supply", component: SignupSupplyComponent},
   {path: "signup-request", component: SignupRequestComponent},
   {path: "signup-delivery", component: SignupDeliveryComponent},
+  {path: "guinea-map", component: GuineaMapComponent},
+  {path: "burkina-map", component: BurkinaMapComponent},
+  {path: "drcongo-map", component: DrcongoMapComponent}
 
 ];
 
