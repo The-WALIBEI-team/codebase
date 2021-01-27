@@ -11,7 +11,6 @@ import { ServiceComponent } from './service/service.component';
 import { JobComponent } from './job/job.component';
 import { AccountComponent } from './account/account.component';
 import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
 import { CheckoutformComponent } from './checkoutform/checkoutform.component';
 import { ProductOnlineComponent } from './product-online/product-online.component';
 import { ProductClickandcollectComponent } from './product-clickandcollect/product-clickandcollect.component';
@@ -49,7 +48,6 @@ import { SignupDeliveryComponent } from './signup-delivery/signup-delivery.compo
     JobComponent,
     AccountComponent,
     LoginComponent,
-    SignupComponent,
     CheckoutformComponent,
     ProductOnlineComponent,
     ProductClickandcollectComponent,

@@ -1,146 +1,162 @@
 <div class="container">
-    <div class="py-5 text-center">
-      <img class="d-block mx-auto mb-4" src="assets/logo.png" alt="" width="72" height="72">
-      <h2>Product - Service - Job</h2>
-      <p class="lead">Welcome to the digital world!<br>Create your account to access walibei, your all-in-one.<br>Wonkhai!</p>
-    </div>
-    <div class="container justify-content-center">
-    <div class="col-md-8 order-md-1">
-        <h4 class="mb-3">Your credentials</h4>
-        <form class="needs-validation" novalidate>
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <label for="firstName">First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" value="" required>
-              <div class="invalid-feedback">
-                This field is mandatory
-              </div>
-            </div>
-            <div class="col-md-6 mb-3">
-              <label for="lastName">last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" value="" required>
-              <div class="invalid-feedback">
-                This field is mandatory
-              </div>
-            </div>
-          </div>
-  
-          <div class="mb-3">
-            <label for="username">Username</label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">@</span>
-              </div>
-              <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
-              <div class="invalid-feedback" style="width: 100%">
-                This field is mandatory. Please provide your username
-              </div>
-            </div>
-          </div>
-  
-          <div class="mb-3">
-            <label for="email">E-mail <span class="text-muted">Your email is mandatory</span></label>
-            <input type="email" class="form-control" id="email" placeholder="type your email id here">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="assets/logo.png" alt="" width="72" height="72">
+    <h2>Product - Service - Job</h2>
+    <p class="lead">Welcome to the digital world!<br>Create your account to access walibei, your all-in-one.<br>Wonkhai!</p>
+  </div>
+  <div class="container justify-content-center">
+  <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Your credentials</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">First name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" value="" required>
             <div class="invalid-feedback">
-              Please provide a valid email id. This field is mandatory. 
+              This field is mandatory
             </div>
           </div>
-  
-          <div class="mb-3">
-            <label for="address">Your permanent address</label>
-            <input type="text" class="form-control" id="address" placeholder="put your permanent address" required>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">last name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" value="" required>
             <div class="invalid-feedback">
-              Enter your permanent address. This field is mandatory.
+              This field is mandatory
             </div>
           </div>
-  
-          <div class="mb-3">
-            <label for="address2">Your current address <span class="text-muted">mandatory</span></label>
-            <input type="text" class="form-control" id="address2" placeholder="put your current address">
-          </div>
-  
-          <div class="row">
-            <div class="col-md-5 mb-3">
-              <label for="country">Countries</label>
-              <select class="custom-select d-block w-100" id="country" required>
-                <option value="">Choose your country ...</option>
-                <option>Republic of Guinea</option>
-                <option>Burkina Faso</option>
-                <option>Democratic Republic of the Congo</option>
-                <option>France</option>
-                <option>India</option>
-              </select>
-              <div class="invalid-feedback">
-                This field is mandatory. Please provide your country name. 
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="state">Town/City</label>
-              <select class="custom-select d-block w-100" id="state" required>
-                <option value="">Choose your town/city from the list ...</option>
-                <option>Conakry (Zone special)</option>
-                <option value="1">Beyla</option>
-                <option value="2">Boffa</option>
-                <option value="3">Boke</option>
-                <option value="1">Coyah</option>
-                <option value="1">Dabola</option>
-                <option value="1">Dalaba</option>
-                <option value="1">Dinguiraye</option>
-                <option value="1">Dubreka</option>
-                <option value="1">Faranah</option>
-                <option value="1">Forecariah</option>
-                <option value="1">Fria</option>
-                <option value="1">Gaoual</option>
-                <option value="1">Gueckedou</option>
-                <option value="1">Kankan</option>
-                <option value="1">Kerouane</option>
-                <option value="1">Kindia</option>
-                <option value="1">Kissidougou</option>
-                <option value="1">Koubia</option>
-                <option value="1">Koundara</option>
-                <option value="1">kouroussa</option>
-                <option value="1">Labe</option>
-                <option value="1">Lelouma</option>
-                <option value="1">Lola</option>
-                <option value="1">Macenta</option>
-                <option value="1">Mali</option>
-                <option value="1">Mamou</option>
-                <option value="1">Mandiana</option>
-                <option value="1">N'Zerekore</option>
-                <option value="1">Pita</option>
-                <option value="1">Siguiri</option>
-                <option value="1">Telimele</option>
-                <option value="1">Tougue</option>
-                <option value="1">Yomou</option>
-              </select>
-              <div class="invalid-feedback">
-                Kindly please select your city/town. This field is mandatory. 
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <label for="zip">Postal code</label>
-              <input type="text" class="form-control" id="zip" placeholder="012345" required>
-              <div class="invalid-feedback">
-                The postal code is mandatory. 
-              </div>
-            </div>
-          </div>
-          <hr class="mb-4">
-          <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="same-address">
-            <label class="custom-control-label" for="same-address">
-              I confirm that I am 18 years old or above. 
-            </label>
-          </div>
-          <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="save-info">
-            <label class="custom-control-label" for="save-info">
-              By creating my account, I acknowledge to have read and accepted the general conditions of use.
-            </label>
-          </div>
-          <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Create my account</button>
-        </form>
         </div>
+
+        <div class="mb-3">
+          <label for="email">E-mail <span class="text-muted"></span></label>
+          <input type="email" class="form-control" id="email" placeholder="type your email id here">
+          <div class="invalid-feedback">
+            Please provide a valid email id. This field is mandatory. 
+          </div>
         </div>
+
+        <div class="mb-3">
+          <label for="tel">Mobile number <span class="text-muted"></span></label>
+          <input type="tel" class="form-control" id="tel" placeholder="enter your telephone number">
+          <div class="invalid-feedback">
+            Please provide a valid email id. This field is mandatory. 
+          </div>
         </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="state">What do you provide?</label>
+          <select class="custom-select d-block w-100" id="state" required>
+            <option value="">Choose what you have to offer from the list ...</option>
+            <option value="0">Products</option>
+            <option value="1">Services</option>
+            <option value="2">Jobs</option>
+          </select>
+          <div class="invalid-feedback">
+            Kindly please select your offer type. 
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address">Your permanent address</label>
+          <input type="text" class="form-control" id="address" placeholder="put your permanent address" required>
+          <div class="invalid-feedback">
+            Enter your permanent address. This field is mandatory.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address2">Your current address <span class="text-muted"></span></label>
+          <input type="text" class="form-control" id="address2" placeholder="put your current address">
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">Countries</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">Choose your country ...</option>
+              <option>Republic of Guinea</option>
+              <option>Burkina Faso</option>
+              <option>Democratic Republic of the Congo</option>
+              <option>France</option>
+              <option>India</option>
+            </select>
+            <div class="invalid-feedback">
+              This field is mandatory. Please provide your country name. 
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state">Town/City</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Choose your town/city from the list ...</option>
+              <option>Conakry (Zone special)</option>
+              <option value="1">Beyla</option>
+              <option value="2">Boffa</option>
+              <option value="3">Boke</option>
+              <option value="1">Coyah</option>
+              <option value="1">Dabola</option>
+              <option value="1">Dalaba</option>
+              <option value="1">Dinguiraye</option>
+              <option value="1">Dubreka</option>
+              <option value="1">Faranah</option>
+              <option value="1">Forecariah</option>
+              <option value="1">Fria</option>
+              <option value="1">Gaoual</option>
+              <option value="1">Gueckedou</option>
+              <option value="1">Kankan</option>
+              <option value="1">Kerouane</option>
+              <option value="1">Kindia</option>
+              <option value="1">Kissidougou</option>
+              <option value="1">Koubia</option>
+              <option value="1">Koundara</option>
+              <option value="1">kouroussa</option>
+              <option value="1">Labe</option>
+              <option value="1">Lelouma</option>
+              <option value="1">Lola</option>
+              <option value="1">Macenta</option>
+              <option value="1">Mali</option>
+              <option value="1">Mamou</option>
+              <option value="1">Mandiana</option>
+              <option value="1">N'Zerekore</option>
+              <option value="1">Pita</option>
+              <option value="1">Siguiri</option>
+              <option value="1">Telimele</option>
+              <option value="1">Tougue</option>
+              <option value="1">Yomou</option>
+            </select>
+            <div class="invalid-feedback">
+              Kindly please select your city/town. This field is mandatory. 
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Pin/Zip code</label>
+            <input type="text" class="form-control" id="zip" placeholder="224" required>
+            <div class="invalid-feedback">
+              The postal code is mandatory. 
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+
+        <div class="form-label-group">
+          <label for="inputPassword">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Please create a strong password" required>
+        </div>
+        
+        <br>
+
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="same-address">
+          <label class="custom-control-label" for="same-address">
+            I confirm that I am 18 years old or above. 
+          </label>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="save-info">
+          <label class="custom-control-label" for="save-info">
+            By creating my account, I acknowledge to have read and accepted the general conditions of use.
+          </label>
+        </div>
+        <hr class="mb-4">
+      <button class="btn btn-primary btn-lg btn-block" type="submit">Create my account</button>
+      </form>
+      </div>
+      </div>
+      </div>

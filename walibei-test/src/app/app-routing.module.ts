@@ -6,7 +6,6 @@ import { ServiceComponent } from './service/service.component';
 import { JobComponent } from './job/job.component'; 
 import { AccountComponent } from './account/account.component'; 
 import { LoginComponent } from './login/login.component'; 
-import { SignupComponent } from './signup/signup.component';
 import { CheckoutformComponent } from './checkoutform/checkoutform.component';
 import { BlogComponent } from './blog/blog.component';
 import { PricingComponent } from './pricing/pricing.component';
@@ -24,7 +23,6 @@ const routes: Routes = [
   {path: "job", component: JobComponent},
   {path: "account", component: AccountComponent},
   {path: "login", component: LoginComponent},
-  {path: "signup", component: SignupComponent}, 
   {path: "checkoutform", component: CheckoutformComponent}, 
   {path: "blog", component: BlogComponent},
   {path: "pricing", component: PricingComponent},
