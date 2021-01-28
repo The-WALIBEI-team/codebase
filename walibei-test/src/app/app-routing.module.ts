@@ -28,6 +28,8 @@ import { JobProfessionalsComponent } from './job-professionals/job-professionals
 import { JobTechniciansComponent } from './job-technicians/job-technicians.component';
 import { JobRepairersComponent } from './job-repairers/job-repairers.component';
 import { JobPostJobComponent } from './job-post-job/job-post-job.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
@@ -59,6 +61,10 @@ const routes: Routes = [
   {path: "job-technicians", component: JobTechniciansComponent},
   {path: "job-repairers", component: JobRepairersComponent},
   {path: "job-post-job", component: JobPostJobComponent},
+  {path: "about-us", component: AboutUsComponent},
+  {path: "contact-us", component: ContactUsComponent},
+
+
 
 ];
 
