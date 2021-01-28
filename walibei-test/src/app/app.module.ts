@@ -18,7 +18,6 @@ import { ProductSecondHandComponent } from './product-second-hand/product-second
 import { ProductNearbyShopComponent } from './product-nearby-shop/product-nearby-shop.component';
 import { ServiceOnlineComponent } from './service-online/service-online.component';
 import { ServiceInpersonComponent } from './service-inperson/service-inperson.component';
-import { ServiceWorkrelatedComponent } from './service-workrelated/service-workrelated.component';
 import { ServiceFreelancingComponent } from './service-freelancing/service-freelancing.component';
 import { JobProfessionalsComponent } from './job-professionals/job-professionals.component';
 import { JobTechniciansComponent } from './job-technicians/job-technicians.component';
@@ -58,7 +57,6 @@ import { DrcongoMapComponent } from './drcongo-map/drcongo-map.component';
     ProductNearbyShopComponent,
     ServiceOnlineComponent,
     ServiceInpersonComponent,
-    ServiceWorkrelatedComponent,
     ServiceFreelancingComponent,
     JobProfessionalsComponent,
     JobTechniciansComponent,

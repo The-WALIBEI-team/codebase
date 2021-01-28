@@ -17,6 +17,17 @@ import { SignupDeliveryComponent } from './signup-delivery/signup-delivery.compo
 import { GuineaMapComponent } from './guinea-map/guinea-map.component';
 import { BurkinaMapComponent } from './burkina-map/burkina-map.component';
 import { DrcongoMapComponent } from './drcongo-map/drcongo-map.component';
+import { ProductOnlineComponent } from './product-online/product-online.component';
+import { ProductClickandcollectComponent } from './product-clickandcollect/product-clickandcollect.component'; 
+import { ProductSecondHandComponent } from './product-second-hand/product-second-hand.component'; 
+import { ProductNearbyShopComponent } from './product-nearby-shop/product-nearby-shop.component';
+import { ServiceOnlineComponent } from './service-online/service-online.component'; 
+import { ServiceInpersonComponent } from './service-inperson/service-inperson.component'; 
+import { ServiceFreelancingComponent } from './service-freelancing/service-freelancing.component'; 
+import { JobProfessionalsComponent } from './job-professionals/job-professionals.component';
+import { JobTechniciansComponent } from './job-technicians/job-technicians.component';
+import { JobRepairersComponent } from './job-repairers/job-repairers.component';
+import { JobPostJobComponent } from './job-post-job/job-post-job.component';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
@@ -36,7 +47,18 @@ const routes: Routes = [
   {path: "signup-delivery", component: SignupDeliveryComponent},
   {path: "guinea-map", component: GuineaMapComponent},
   {path: "burkina-map", component: BurkinaMapComponent},
-  {path: "drcongo-map", component: DrcongoMapComponent}
+  {path: "drcongo-map", component: DrcongoMapComponent}, 
+  {path: "product-online", component: ProductOnlineComponent}, 
+  {path: "product-clickandcollect", component: ProductClickandcollectComponent}, 
+  {path: "product-second-hand", component: ProductSecondHandComponent},
+  {path: "product-nearby-shop", component: ProductNearbyShopComponent},
+  {path: "service-online", component: ServiceOnlineComponent},
+  {path: "service-inperson", component: ServiceInpersonComponent},
+  {path: "service-freelancing", component: ServiceFreelancingComponent},
+  {path: "job-professionals", component: JobProfessionalsComponent},
+  {path: "job-technicians", component: JobTechniciansComponent},
+  {path: "job-repairers", component: JobRepairersComponent},
+  {path: "job-post-job", component: JobPostJobComponent},
 
 ];
 
