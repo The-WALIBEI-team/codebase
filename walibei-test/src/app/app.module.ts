@@ -125,6 +125,64 @@ import { DrcRegionKivuComponent } from './drc-region-kivu/drc-region-kivu.compon
 import { DrcRegionShabaComponent } from './drc-region-shaba/drc-region-shaba.component';
 import { DrcRegionKasaiOrientalComponent } from './drc-region-kasai-oriental/drc-region-kasai-oriental.component';
 import { DrcRegionKasaiOccidentalComponent } from './drc-region-kasai-occidental/drc-region-kasai-occidental.component';
+import { BurkinaRegionBoucleDuMouhounComponent } from './burkina-region-boucle-du-mouhoun/burkina-region-boucle-du-mouhoun.component';
+import { BurkinaRegionCascadesComponent } from './burkina-region-cascades/burkina-region-cascades.component';
+import { BurkinaRegionCentreComponent } from './burkina-region-centre/burkina-region-centre.component';
+import { BurkinaRegionCentreEstComponent } from './burkina-region-centre-est/burkina-region-centre-est.component';
+import { BurkinaRegionCentreNordComponent } from './burkina-region-centre-nord/burkina-region-centre-nord.component';
+import { BurkinaRegionCentreOuestComponent } from './burkina-region-centre-ouest/burkina-region-centre-ouest.component';
+import { BurkinaRegionCentreSudComponent } from './burkina-region-centre-sud/burkina-region-centre-sud.component';
+import { BurkinaRegionEstComponent } from './burkina-region-est/burkina-region-est.component';
+import { BurkinaRegionHautsBassinsComponent } from './burkina-region-hauts-bassins/burkina-region-hauts-bassins.component';
+import { BurkinaRegionNordComponent } from './burkina-region-nord/burkina-region-nord.component';
+import { BurkinaRegionPlateauCentralComponent } from './burkina-region-plateau-central/burkina-region-plateau-central.component';
+import { BurkinaRegionSahelComponent } from './burkina-region-sahel/burkina-region-sahel.component';
+import { BurkinaRegionSudOuestComponent } from './burkina-region-sud-ouest/burkina-region-sud-ouest.component';
+import { BurkinaVilleOuagadougouComponent } from './burkina-ville-ouagadougou/burkina-ville-ouagadougou.component';
+import { BurkinaVilleBoboDioulassoComponent } from './burkina-ville-bobo-dioulasso/burkina-ville-bobo-dioulasso.component';
+import { BurkinaVilleKoudougouComponent } from './burkina-ville-koudougou/burkina-ville-koudougou.component';
+import { BurkinaVilleBanforaComponent } from './burkina-ville-banfora/burkina-ville-banfora.component';
+import { BurkinaVilleOuahigouyaComponent } from './burkina-ville-ouahigouya/burkina-ville-ouahigouya.component';
+import { BurkinaVilleDedougouComponent } from './burkina-ville-dedougou/burkina-ville-dedougou.component';
+import { BurkinaVillePissilaComponent } from './burkina-ville-pissila/burkina-ville-pissila.component';
+import { BurkinaVilleKayaComponent } from './burkina-ville-kaya/burkina-ville-kaya.component';
+import { BurkinaVilleTanghinDassouriComponent } from './burkina-ville-tanghin-dassouri/burkina-ville-tanghin-dassouri.component';
+import { BurkinaVilleTenkodogoComponent } from './burkina-ville-tenkodogo/burkina-ville-tenkodogo.component';
+import { BurkinaVillePouytengaComponent } from './burkina-ville-pouytenga/burkina-ville-pouytenga.component';
+import { BurkinaVilleFadaNGourmaComponent } from './burkina-ville-fada-ngourma/burkina-ville-fada-ngourma.component';
+import { BurkinaVilleFadaKordieComponent } from './burkina-ville-fada-kordie/burkina-ville-fada-kordie.component';
+import { BurkinaVilleFadaOuargayeComponent } from './burkina-ville-fada-ouargaye/burkina-ville-fada-ouargaye.component';
+import { BurkinaVilleFadaGarangoComponent } from './burkina-ville-fada-garango/burkina-ville-fada-garango.component';
+import { BurkinaVilleFadaDoriComponent } from './burkina-ville-fada-dori/burkina-ville-fada-dori.component';
+import { BurkinaVilleKongoussiComponent } from './burkina-ville-kongoussi/burkina-ville-kongoussi.component';
+import { BurkinaVilleKokologoComponent } from './burkina-ville-kokologo/burkina-ville-kokologo.component';
+import { BurkinaVilleReoComponent } from './burkina-ville-reo/burkina-ville-reo.component';
+import { BurkinaVilleDiapagaComponent } from './burkina-ville-diapaga/burkina-ville-diapaga.component';
+import { BurkinaVilleHoundeComponent } from './burkina-ville-hounde/burkina-ville-hounde.component';
+import { BurkinaVilleKoukaComponent } from './burkina-ville-kouka/burkina-ville-kouka.component';
+import { BurkinaVilleYakoComponent } from './burkina-ville-yako/burkina-ville-yako.component';
+import { BurkinaVilleDjiboComponent } from './burkina-ville-djibo/burkina-ville-djibo.component';
+import { BurkinaVilleKhyonComponent } from './burkina-ville-khyon/burkina-ville-khyon.component';
+import { BurkinaVilleLeoComponent } from './burkina-ville-leo/burkina-ville-leo.component';
+import { BurkinaVilleNounaComponent } from './burkina-ville-nouna/burkina-ville-nouna.component';
+import { BurkinaVillePoComponent } from './burkina-ville-po/burkina-ville-po.component';
+import { BurkinaVilleKoupelaComponent } from './burkina-ville-koupela/burkina-ville-koupela.component';
+import { BurkinaVilleZorghoComponent } from './burkina-ville-zorgho/burkina-ville-zorgho.component';
+import { BurkinaVilleKoumbissiriComponent } from './burkina-ville-koumbissiri/burkina-ville-koumbissiri.component';
+import { BurkinaVilleBonouToagaComponent } from './burkina-ville-bonou-toaga/burkina-ville-bonou-toaga.component';
+import { BurkinaVilleOrodaraComponent } from './burkina-ville-orodara/burkina-ville-orodara.component';
+import { BurkinaVilleGourcyComponent } from './burkina-ville-gourcy/burkina-ville-gourcy.component';
+import { BurkinaVilleTouganComponent } from './burkina-ville-tougan/burkina-ville-tougan.component';
+import { BurkinaVilleBoulsaComponent } from './burkina-ville-boulsa/burkina-ville-boulsa.component';
+import { BurkinaVilleTitaoComponent } from './burkina-ville-titao/burkina-ville-titao.component';
+import { BurkinaVilleMangaComponent } from './burkina-ville-manga/burkina-ville-manga.component';
+import { BurkinaVillePamaComponent } from './burkina-ville-pama/burkina-ville-pama.component';
+import { BurkinaVilleBoromoComponent } from './burkina-ville-boromo/burkina-ville-boromo.component';
+import { BurkinaVilleDiedougouComponent } from './burkina-ville-diedougou/burkina-ville-diedougou.component';
+import { BurkinaVilleZiniareComponent } from './burkina-ville-ziniare/burkina-ville-ziniare.component';
+import { BurkinaVilleDanoComponent } from './burkina-ville-dano/burkina-ville-dano.component';
+import { BurkinaVilleBousseComponent } from './burkina-ville-bousse/burkina-ville-bousse.component';
+import { BurkinaVilleSolenzoComponent } from './burkina-ville-solenzo/burkina-ville-solenzo.component';
 
 @NgModule({
   declarations: [
@@ -250,7 +308,65 @@ import { DrcRegionKasaiOccidentalComponent } from './drc-region-kasai-occidental
     DrcRegionKivuComponent,
     DrcRegionShabaComponent,
     DrcRegionKasaiOrientalComponent,
-    DrcRegionKasaiOccidentalComponent
+    DrcRegionKasaiOccidentalComponent,
+    BurkinaRegionBoucleDuMouhounComponent,
+    BurkinaRegionCascadesComponent,
+    BurkinaRegionCentreComponent,
+    BurkinaRegionCentreEstComponent,
+    BurkinaRegionCentreNordComponent,
+    BurkinaRegionCentreOuestComponent,
+    BurkinaRegionCentreSudComponent,
+    BurkinaRegionEstComponent,
+    BurkinaRegionHautsBassinsComponent,
+    BurkinaRegionNordComponent,
+    BurkinaRegionPlateauCentralComponent,
+    BurkinaRegionSahelComponent,
+    BurkinaRegionSudOuestComponent,
+    BurkinaVilleOuagadougouComponent,
+    BurkinaVilleBoboDioulassoComponent,
+    BurkinaVilleKoudougouComponent,
+    BurkinaVilleBanforaComponent,
+    BurkinaVilleOuahigouyaComponent,
+    BurkinaVilleDedougouComponent,
+    BurkinaVillePissilaComponent,
+    BurkinaVilleKayaComponent,
+    BurkinaVilleTanghinDassouriComponent,
+    BurkinaVilleTenkodogoComponent,
+    BurkinaVillePouytengaComponent,
+    BurkinaVilleFadaNGourmaComponent,
+    BurkinaVilleFadaKordieComponent,
+    BurkinaVilleFadaOuargayeComponent,
+    BurkinaVilleFadaGarangoComponent,
+    BurkinaVilleFadaDoriComponent,
+    BurkinaVilleKongoussiComponent,
+    BurkinaVilleKokologoComponent,
+    BurkinaVilleReoComponent,
+    BurkinaVilleDiapagaComponent,
+    BurkinaVilleHoundeComponent,
+    BurkinaVilleKoukaComponent,
+    BurkinaVilleYakoComponent,
+    BurkinaVilleDjiboComponent,
+    BurkinaVilleKhyonComponent,
+    BurkinaVilleLeoComponent,
+    BurkinaVilleNounaComponent,
+    BurkinaVillePoComponent,
+    BurkinaVilleKoupelaComponent,
+    BurkinaVilleZorghoComponent,
+    BurkinaVilleKoumbissiriComponent,
+    BurkinaVilleBonouToagaComponent,
+    BurkinaVilleOrodaraComponent,
+    BurkinaVilleGourcyComponent,
+    BurkinaVilleTouganComponent,
+    BurkinaVilleBoulsaComponent,
+    BurkinaVilleTitaoComponent,
+    BurkinaVilleMangaComponent,
+    BurkinaVillePamaComponent,
+    BurkinaVilleBoromoComponent,
+    BurkinaVilleDiedougouComponent,
+    BurkinaVilleZiniareComponent,
+    BurkinaVilleDanoComponent,
+    BurkinaVilleBousseComponent,
+    BurkinaVilleSolenzoComponent
   ],
   imports: [
     BrowserModule,
