@@ -183,6 +183,9 @@ import { BurkinaVilleZiniareComponent } from './burkina-ville-ziniare/burkina-vi
 import { BurkinaVilleDanoComponent } from './burkina-ville-dano/burkina-ville-dano.component';
 import { BurkinaVilleBousseComponent } from './burkina-ville-bousse/burkina-ville-bousse.component';
 import { BurkinaVilleSolenzoComponent } from './burkina-ville-solenzo/burkina-ville-solenzo.component';
+import { MembersComponent } from './members/members.component';
+import { HeadquarterComponent } from './headquarter/headquarter.component';
+import { CompanyLocationComponent } from './company-location/company-location.component';
 
 @NgModule({
   declarations: [
@@ -366,7 +369,10 @@ import { BurkinaVilleSolenzoComponent } from './burkina-ville-solenzo/burkina-vi
     BurkinaVilleZiniareComponent,
     BurkinaVilleDanoComponent,
     BurkinaVilleBousseComponent,
-    BurkinaVilleSolenzoComponent
+    BurkinaVilleSolenzoComponent,
+    MembersComponent,
+    HeadquarterComponent,
+    CompanyLocationComponent
   ],
   imports: [
     BrowserModule,
