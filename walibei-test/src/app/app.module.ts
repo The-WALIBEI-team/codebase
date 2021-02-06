@@ -200,6 +200,8 @@ import { DownloaderComponent } from './downloader/downloader.component';
 import { MessageComponent } from './message/message.component';
 import { PackageSearchComponent } from './package-search/package-search.component';
 import { UploaderComponent } from './uploader/uploader.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -415,7 +417,9 @@ import { UploaderComponent } from './uploader/uploader.component';
       }
     ),
 
-    AppRoutingModule
+    AppRoutingModule,
+
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [ ],
   bootstrap: [AppComponent]
